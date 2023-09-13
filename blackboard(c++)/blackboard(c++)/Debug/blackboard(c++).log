@@ -1,0 +1,4 @@
+﻿  test.cpp
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
+test.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:REF”规范)
+  blackboard(c++).vcxproj -> C:\Users\44931\source\repos\blackboard(c++)\Debug\blackboard(c++).exe

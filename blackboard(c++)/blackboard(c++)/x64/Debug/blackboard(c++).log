@@ -1,0 +1,5 @@
+﻿  test.cpp
+C:\Users\44931\source\repos\blackboard(c++)\blackboard(c++)\test.cpp(234,17): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
+test.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:REF”规范)
+  blackboard(c++).vcxproj -> C:\Users\44931\source\repos\blackboard(c++)\x64\Debug\blackboard(c++).exe
