@@ -1,0 +1,10 @@
+﻿  Stack.c
+C:\Users\44931\source\repos\Stack\Stack\Stack.c(6,31): warning C4013: “malloc”未定义；假设外部返回 int
+C:\Users\44931\source\repos\Stack\Stack\Stack.c(6,53): warning C4312: “类型强制转换”: 从“int”转换到更大的“STDataType *”
+C:\Users\44931\source\repos\Stack\Stack\Stack.c(14,16): warning C4047: “=”:“STDataType *”与“STDataType”的间接级别不同
+C:\Users\44931\source\repos\Stack\Stack\Stack.c(24,32): warning C4013: “realloc”未定义；假设外部返回 int
+C:\Users\44931\source\repos\Stack\Stack\Stack.c(24,76): warning C4312: “类型强制转换”: 从“int”转换到更大的“STDataType *”
+C:\Users\44931\source\repos\Stack\Stack\Stack.c(29,11): warning C4098: “CheckCapacity”:“void”函数返回值
+  test.c
+  正在生成代码...
+  Stack.vcxproj -> C:\Users\44931\source\repos\Stack\x64\Debug\Stack.exe

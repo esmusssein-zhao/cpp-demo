@@ -1,0 +1,6 @@
+﻿  Stack.c
+C:\Users\44931\source\repos\Stack\Stack\Stack.c(6,31): warning C4013: “malloc”未定义；假设外部返回 int
+C:\Users\44931\source\repos\Stack\Stack\Stack.c(45,6): warning C4013: “free”未定义；假设外部返回 int
+C:\Users\44931\source\repos\Stack\Stack\Stack.c(54,32): warning C4013: “realloc”未定义；假设外部返回 int
+C:\Users\44931\source\repos\Stack\Stack\Stack.c(59,11): warning C4098: “CheckCapacity”:“void”函数返回值
+  Stack.vcxproj -> C:\Users\44931\source\repos\Stack\Debug\Stack.exe

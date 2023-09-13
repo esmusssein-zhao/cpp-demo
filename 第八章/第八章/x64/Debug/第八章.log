@@ -1,0 +1,9 @@
+﻿  demo.cpp
+C:\Users\44931\source\repos\第八章\第八章\demo.cpp(283,34): warning C4267: “参数”: 从“size_t”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=unsigned int
+          ]
+C:\Users\44931\source\repos\第八章\第八章\demo.cpp(288,26): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+C:\Users\44931\source\repos\第八章\第八章\demo.cpp(289,19): warning C4834: 放弃具有 "nodiscard" 属性的函数的返回值
+  第八章.vcxproj -> C:\Users\44931\source\repos\第八章\x64\Debug\第八章.exe
