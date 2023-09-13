@@ -1,0 +1,105 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.92.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  server.c
+C:\Users\44931\source\repos\http sever\http sever\server.c(42,42): warning : conversion from ‘long int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\44931\source\repos\http sever\http sever\server.c(42,42): warning :    42 |         serverDressInfo.sin_port = htons(atol(argv[1]));
+C:\Users\44931\source\repos\http sever\http sever\server.c(42,42): warning :       |                                          ^~~~~~~~~~~~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(44,39): warning : passing argument 2 of ‘bind’ from incompatible pointer type [-Wincompatible-pointer-types]
+C:\Users\44931\source\repos\http sever\http sever\server.c(44,39): warning :    44 |         int bind_rt = bind(socket_fd, (struct sockaddr_in*)&serverDressInfo, sizeof(serverDressInfo));
+C:\Users\44931\source\repos\http sever\http sever\server.c(44,39): warning :       |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(44,39): warning :       |                                       |
+C:\Users\44931\source\repos\http sever\http sever\server.c(44,39): warning :       |                                       struct sockaddr_in *
+/usr/include/x86_64-linux-gnu/sys/socket.h(112,49): message : expected ‘const struct sockaddr *’ but argument is of type ‘struct sockaddr_in *’
+/usr/include/x86_64-linux-gnu/sys/socket.h(112,49): message :   112 | extern int bind (int __fd, __CONST_SOCKADDR_ARG __addr, socklen_t __len)
+/usr/include/x86_64-linux-gnu/sys/socket.h(112,49): message :       |                                                 ^
+C:\Users\44931\source\repos\http sever\http sever\server.c(73,51): warning : passing argument 2 of ‘accept’ from incompatible pointer type [-Wincompatible-pointer-types]
+C:\Users\44931\source\repos\http sever\http sever\server.c(73,51): warning :    73 |                 clientSock_fd = accept(socket_fd, (struct sockaddr_in*)&client, &clientAddrLen);
+C:\Users\44931\source\repos\http sever\http sever\server.c(73,51): warning :       |                                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(73,51): warning :       |                                                   |
+C:\Users\44931\source\repos\http sever\http sever\server.c(73,51): warning :       |                                                   struct sockaddr_in *
+/usr/include/x86_64-linux-gnu/sys/socket.h(306,45): message : expected ‘struct sockaddr * restrict’ but argument is of type ‘struct sockaddr_in *’
+/usr/include/x86_64-linux-gnu/sys/socket.h(306,45): message :   306 | extern int accept (int __fd, __SOCKADDR_ARG __addr,
+/usr/include/x86_64-linux-gnu/sys/socket.h(306,45): message :       |                                             ^
+C:\Users\44931\source\repos\http sever\http sever\server.c(68,22): warning : unused variable ‘buf’ [-Wunused-variable]
+C:\Users\44931\source\repos\http sever\http sever\server.c(68,22): warning :    68 |                 char buf[BUFSIZE];
+C:\Users\44931\source\repos\http sever\http sever\server.c(68,22): warning :       |                      ^~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(66,21): warning : unused variable ‘length’ [-Wunused-variable]
+C:\Users\44931\source\repos\http sever\http sever\server.c(66,21): warning :    66 |                 int length;
+C:\Users\44931\source\repos\http sever\http sever\server.c(66,21): warning :       |                     ^~~~~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(93,24): warning : conversion to ‘size_t’ {aka ‘long unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\44931\source\repos\http sever\http sever\server.c(93,24): warning :    93 |         memset(buf, 0, size);
+C:\Users\44931\source\repos\http sever\http sever\server.c(93,24): warning :       |                        ^~~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(129,28): warning : conversion from ‘ssize_t’ {aka ‘long int’} to ‘int’ may change value [-Wconversion]
+C:\Users\44931\source\repos\http sever\http sever\server.c(129,28): warning :   129 |                 int rd_n = read(fd, flag, 1);
+C:\Users\44931\source\repos\http sever\http sever\server.c(129,28): warning :       |                            ^~~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(176,33): error : ‘m’ undeclared (first use in this function)
+C:\Users\44931\source\repos\http sever\http sever\server.c(176,33): error :   176 |                                 m[flagLen] = buf[flagLen];
+C:\Users\44931\source\repos\http sever\http sever\server.c(176,33): error :       |                                 ^
+C:\Users\44931\source\repos\http sever\http sever\server.c(176,33): message : each undeclared identifier is reported only once for each function it appears in
+C:\Users\44931\source\repos\http sever\http sever\server.c(181,33): error : ‘u’ undeclared (first use in this function)
+C:\Users\44931\source\repos\http sever\http sever\server.c(181,33): error :   181 |                                 u[i++] = buf[flagLen];
+C:\Users\44931\source\repos\http sever\http sever\server.c(181,33): error :       |                                 ^
+C:\Users\44931\source\repos\http sever\http sever\server.c(186,33): error : ‘h’ undeclared (first use in this function)
+C:\Users\44931\source\repos\http sever\http sever\server.c(186,33): error :   186 |                                 h[i++] = buf[flagLen];
+C:\Users\44931\source\repos\http sever\http sever\server.c(186,33): error :       |                                 ^
+C:\Users\44931\source\repos\http sever\http sever\server.c(205,27): warning : conversion to ‘size_t’ {aka ‘long unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\44931\source\repos\http sever\http sever\server.c(205,27): warning :   205 |         memcpy(name, buf, flag);
+C:\Users\44931\source\repos\http sever\http sever\server.c(205,27): warning :       |                           ^~~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(210,26): warning : assignment to ‘char *’ from ‘char’ makes pointer from integer without a cast [-Wint-conversion]
+C:\Users\44931\source\repos\http sever\http sever\server.c(210,26): warning :   210 |                 value[i] = buf[++flag];
+C:\Users\44931\source\repos\http sever\http sever\server.c(210,26): warning :       |                          ^
+C:\Users\44931\source\repos\http sever\http sever\server.c(207,15): warning : variable ‘value’ set but not used [-Wunused-but-set-variable]
+C:\Users\44931\source\repos\http sever\http sever\server.c(207,15): warning :   207 |         char* value[1024];
+C:\Users\44931\source\repos\http sever\http sever\server.c(207,15): warning :       |               ^~~~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(226,34): warning : passing argument 2 of ‘getLine’ from incompatible pointer type [-Wincompatible-pointer-types]
+C:\Users\44931\source\repos\http sever\http sever\server.c(226,34): warning :   226 |         len = getLine(client_fd, buf, sizeof(buf));
+C:\Users\44931\source\repos\http sever\http sever\server.c(226,34): warning :       |                                  ^~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(226,34): warning :       |                                  |
+C:\Users\44931\source\repos\http sever\http sever\server.c(226,34): warning :       |                                  char **
+C:\Users\44931\source\repos\http sever\http sever\server.c(91,27): message : expected ‘char *’ but argument is of type ‘char **’
+C:\Users\44931\source\repos\http sever\http sever\server.c(91,27): message :    91 | int getLine(int fd, char* buf, int size)
+C:\Users\44931\source\repos\http sever\http sever\server.c(91,27): message :       |                     ~~~~~~^~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(229,25): warning : passing argument 1 of ‘requestLineInfo’ from incompatible pointer type [-Wincompatible-pointer-types]
+C:\Users\44931\source\repos\http sever\http sever\server.c(229,25): warning :   229 |         requestLineInfo(buf, len);
+C:\Users\44931\source\repos\http sever\http sever\server.c(229,25): warning :       |                         ^~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(229,25): warning :       |                         |
+C:\Users\44931\source\repos\http sever\http sever\server.c(229,25): warning :       |                         char **
+C:\Users\44931\source\repos\http sever\http sever\server.c(152,28): message : expected ‘char *’ but argument is of type ‘char **’
+C:\Users\44931\source\repos\http sever\http sever\server.c(152,28): message :   152 | void requestLineInfo(char* buf, int len)
+C:\Users\44931\source\repos\http sever\http sever\server.c(152,28): message :       |                      ~~~~~~^~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(232,42): warning : passing argument 2 of ‘getLine’ from incompatible pointer type [-Wincompatible-pointer-types]
+C:\Users\44931\source\repos\http sever\http sever\server.c(232,42): warning :   232 |                 len = getLine(client_fd, buf, sizeof(buf));
+C:\Users\44931\source\repos\http sever\http sever\server.c(232,42): warning :       |                                          ^~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(232,42): warning :       |                                          |
+C:\Users\44931\source\repos\http sever\http sever\server.c(232,42): warning :       |                                          char **
+C:\Users\44931\source\repos\http sever\http sever\server.c(91,27): message : expected ‘char *’ but argument is of type ‘char **’
+C:\Users\44931\source\repos\http sever\http sever\server.c(91,27): message :    91 | int getLine(int fd, char* buf, int size)
+C:\Users\44931\source\repos\http sever\http sever\server.c(91,27): message :       |                     ~~~~~~^~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(233,33): warning : passing argument 1 of ‘requestHeadInfo’ from incompatible pointer type [-Wincompatible-pointer-types]
+C:\Users\44931\source\repos\http sever\http sever\server.c(233,33): warning :   233 |                 requestHeadInfo(buf, len);
+C:\Users\44931\source\repos\http sever\http sever\server.c(233,33): warning :       |                                 ^~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(233,33): warning :       |                                 |
+C:\Users\44931\source\repos\http sever\http sever\server.c(233,33): warning :       |                                 char **
+C:\Users\44931\source\repos\http sever\http sever\server.c(197,28): message : expected ‘char *’ but argument is of type ‘char **’
+C:\Users\44931\source\repos\http sever\http sever\server.c(197,28): message :   197 | void requestHeadInfo(char* buf, int len)
+C:\Users\44931\source\repos\http sever\http sever\server.c(197,28): message :       |                      ~~~~~~^~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(237,34): warning : passing argument 2 of ‘getLine’ from incompatible pointer type [-Wincompatible-pointer-types]
+C:\Users\44931\source\repos\http sever\http sever\server.c(237,34): warning :   237 |         len = getLine(client_fd, buf, sizeof(buf));
+C:\Users\44931\source\repos\http sever\http sever\server.c(237,34): warning :       |                                  ^~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(237,34): warning :       |                                  |
+C:\Users\44931\source\repos\http sever\http sever\server.c(237,34): warning :       |                                  char **
+C:\Users\44931\source\repos\http sever\http sever\server.c(91,27): message : expected ‘char *’ but argument is of type ‘char **’
+C:\Users\44931\source\repos\http sever\http sever\server.c(91,27): message :    91 | int getLine(int fd, char* buf, int size)
+C:\Users\44931\source\repos\http sever\http sever\server.c(91,27): message :       |                     ~~~~~~^~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(238,21): warning : passing argument 1 of ‘requestData’ from incompatible pointer type [-Wincompatible-pointer-types]
+C:\Users\44931\source\repos\http sever\http sever\server.c(238,21): warning :   238 |         requestData(buf, len);
+C:\Users\44931\source\repos\http sever\http sever\server.c(238,21): warning :       |                     ^~~
+C:\Users\44931\source\repos\http sever\http sever\server.c(238,21): warning :       |                     |
+C:\Users\44931\source\repos\http sever\http sever\server.c(238,21): warning :       |                     char **
+C:\Users\44931\source\repos\http sever\http sever\server.c(216,24): message : expected ‘char *’ but argument is of type ‘char **’
+C:\Users\44931\source\repos\http sever\http sever\server.c(216,24): message :   216 | void requestData(char* buf, int len)
+C:\Users\44931\source\repos\http sever\http sever\server.c(216,24): message :       |                  ~~~~~~^~~

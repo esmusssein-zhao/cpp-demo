@@ -1,0 +1,52 @@
+﻿  Folder.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.33.31629\include\xmemory(682,47): error C2665: “Message::Message”: 2 个重载中没有一个可以转换所有参数类型
+C:\Users\44931\source\repos\email_demo\email_demo\Message.h(24,1): message : 可能是“Message::Message(const Message &)”
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.33.31629\include\xmemory(682,47): message : “Message::Message(const Message &)”: 无法将参数 1 从“Message *”转换为“const Message &”
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.33.31629\include\xmemory(675,1): message : 原因如下: 无法从“Message *”转换为“const Message”
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.33.31629\include\xmemory(675,1): message : 无构造函数可以接受源类型，或构造函数重载决策不明确
+C:\Users\44931\source\repos\email_demo\email_demo\Message.h(24,1): message : 参见“Message::Message”的声明
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.33.31629\include\xmemory(675,1): message : 尝试匹配参数列表“(Message *)”时
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.33.31629\include\list(582): message : 查看对正在编译的函数 模板 实例化“void std::_Default_allocator_traits<_Alloc>::construct<_Ty,Message*&>(_Alloc &,_Objty *const ,Message *&)”的引用
+          with
+          [
+              _Alloc=std::allocator<std::_List_node<Message,std::_Default_allocator_traits<std::allocator<Message>>::void_pointer>>,
+              _Ty=Message,
+              _Objty=Message
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.33.31629\include\list(584): message : 查看对正在编译的函数 模板 实例化“void std::_Default_allocator_traits<_Alloc>::construct<_Ty,Message*&>(_Alloc &,_Objty *const ,Message *&)”的引用
+          with
+          [
+              _Alloc=std::allocator<std::_List_node<Message,std::_Default_allocator_traits<std::allocator<Message>>::void_pointer>>,
+              _Ty=Message,
+              _Objty=Message
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.33.31629\include\list(997): message : 查看对正在编译的函数 模板 实例化“std::_List_node_emplace_op2<std::allocator<std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_List_node_emplace_op2<Message*&>(_Alnode &,Message *&)”的引用
+          with
+          [
+              _Ty=Message,
+              _Alloc=std::allocator<Message>,
+              _Alnode=std::allocator<std::_List_node<Message,std::_Default_allocator_traits<std::allocator<Message>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.33.31629\include\list(1003): message : 查看对正在编译的函数 模板 实例化“std::_List_node_emplace_op2<std::allocator<std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_List_node_emplace_op2<Message*&>(_Alnode &,Message *&)”的引用
+          with
+          [
+              _Ty=Message,
+              _Alloc=std::allocator<Message>,
+              _Alnode=std::allocator<std::_List_node<Message,std::_Default_allocator_traits<std::allocator<Message>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.33.31629\include\list(977): message : 查看对正在编译的函数 模板 实例化“std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::list<_Ty,_Alloc>::_Emplace<Message*&>(std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer> *const ,Message *&)”的引用
+          with
+          [
+              _Ty=Message,
+              _Alloc=std::allocator<Message>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.33.31629\include\list(978): message : 查看对正在编译的函数 模板 实例化“std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::list<_Ty,_Alloc>::_Emplace<Message*&>(std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer> *const ,Message *&)”的引用
+          with
+          [
+              _Ty=Message,
+              _Alloc=std::allocator<Message>
+          ]
+C:\Users\44931\source\repos\email_demo\email_demo\Folder.cpp(5): message : 查看对正在编译的函数 模板 实例化“void std::list<Message,std::allocator<Message>>::emplace_back<Message*&>(Message *&)”的引用
+  main.cpp
+  Message.cpp
+  正在生成代码...
