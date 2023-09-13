@@ -1,0 +1,3 @@
+﻿  第七章.cpp
+C:\Users\44931\source\repos\第七章\第七章\第七章.cpp(5,9): error C2512: “Person”: 没有合适的默认构造函数可用
+C:\Users\44931\source\repos\第七章\第七章\person.h(6,7): message : 参见“Person”的声明
