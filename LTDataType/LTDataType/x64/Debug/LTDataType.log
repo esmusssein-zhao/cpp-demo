@@ -1,0 +1,10 @@
+﻿  LTDataType.c
+C:\Users\44931\source\repos\LTDataType\LTDataType\LTDataType.c(5,39): warning C4013: “malloc”未定义；假设外部返回 int
+C:\Users\44931\source\repos\LTDataType\LTDataType\LTDataType.c(5,57): warning C4312: “类型强制转换”: 从“int”转换到更大的“ListNode *”
+C:\Users\44931\source\repos\LTDataType\LTDataType\LTDataType.c(38,57): warning C4312: “类型强制转换”: 从“int”转换到更大的“ListNode *”
+C:\Users\44931\source\repos\LTDataType\LTDataType\LTDataType.c(42,7): warning C4013: “exit”未定义；假设外部返回 int
+C:\Users\44931\source\repos\LTDataType\LTDataType\LTDataType.c(86,9): warning C4013: “free”未定义；假设外部返回 int
+C:\Users\44931\source\repos\LTDataType\LTDataType\LTDataType.c(102,57): warning C4312: “类型强制转换”: 从“int”转换到更大的“ListNode *”
+  test.c
+  正在生成代码...
+  LTDataType.vcxproj -> C:\Users\44931\source\repos\LTDataType\x64\Debug\LTDataType.exe

@@ -1,0 +1,7 @@
+﻿  LTDataType.c
+C:\Users\44931\source\repos\LTDataType\LTDataType\LTDataType.c(5,39): warning C4013: “malloc”未定义；假设外部返回 int
+C:\Users\44931\source\repos\LTDataType\LTDataType\LTDataType.c(42,7): warning C4013: “exit”未定义；假设外部返回 int
+C:\Users\44931\source\repos\LTDataType\LTDataType\LTDataType.c(86,9): warning C4013: “free”未定义；假设外部返回 int
+  test.c
+  正在生成代码...
+  LTDataType.vcxproj -> C:\Users\44931\source\repos\LTDataType\Debug\LTDataType.exe
