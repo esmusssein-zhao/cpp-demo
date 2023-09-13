@@ -1,0 +1,8 @@
+﻿  sort.cpp
+C:\Users\44931\source\repos\sort\sort\lookup.hpp(41,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\44931\source\repos\sort\sort\sort.cpp(24): message : 查看对正在编译的函数 模板 实例化“int binary_less_and_same_right<int>(const std::vector<int,std::allocator<int>> &,T)”的引用
+          with
+          [
+              T=int
+          ]
+  sort.vcxproj -> C:\Users\44931\source\repos\sort\x64\Debug\sort.exe
