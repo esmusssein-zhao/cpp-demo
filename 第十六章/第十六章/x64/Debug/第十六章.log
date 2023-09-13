@@ -1,0 +1,2 @@
+﻿  第十六章.cpp
+C:\Users\44931\source\repos\第十六章\第十六章\第十六章.cpp(21,44): error C2929: “void print1<int>(const int &)”: 显式实例化；无法显式强制和取消模板类成员的实例化
