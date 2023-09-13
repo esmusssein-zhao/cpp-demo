@@ -1,0 +1,7 @@
+﻿  test.c
+C:\Users\44931\source\repos\QNode\QNode\test.c(6,14): warning C4133: “函数”: 从“QNode *”到“Queue *”的类型不兼容
+C:\Users\44931\source\repos\QNode\QNode\test.c(7,14): warning C4133: “函数”: 从“QNode *”到“Queue *”的类型不兼容
+C:\Users\44931\source\repos\QNode\QNode\test.c(8,14): warning C4133: “函数”: 从“QNode *”到“Queue *”的类型不兼容
+C:\Users\44931\source\repos\QNode\QNode\test.c(9,14): warning C4133: “函数”: 从“QNode *”到“Queue *”的类型不兼容
+C:\Users\44931\source\repos\QNode\QNode\test.c(10,13): warning C4133: “函数”: 从“QNode *”到“Queue *”的类型不兼容
+  QNode.vcxproj -> C:\Users\44931\source\repos\QNode\x64\Debug\QNode.exe

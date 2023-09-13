@@ -1,0 +1,7 @@
+﻿  order.c
+C:\Users\44931\source\repos\orderF\orderF\order.c(21,6): warning C4101: “i”: 未引用的局部变量
+C:\Users\44931\source\repos\orderF\orderF\order.c(52,6): warning C4101: “i”: 未引用的局部变量
+C:\Users\44931\source\repos\orderF\orderF\order.c(219,8): warning C4101: “c”: 未引用的局部变量
+C:\Users\44931\source\repos\orderF\orderF\order.c(349,9): warning C4013: “gets”未定义；假设外部返回 int
+C:\Users\44931\source\repos\orderF\orderF\order.c(302,20): warning C4101: “zhuohao”: 未引用的局部变量
+  orderF.vcxproj -> C:\Users\44931\source\repos\orderF\x64\Debug\orderF.exe

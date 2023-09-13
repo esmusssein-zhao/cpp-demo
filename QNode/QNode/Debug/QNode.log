@@ -1,0 +1,4 @@
+﻿  QNode.c
+C:\Users\44931\source\repos\QNode\QNode\QNode.c(11,33): warning C4013: “malloc”未定义；假设外部返回 int
+C:\Users\44931\source\repos\QNode\QNode\QNode.c(31,7): warning C4013: “free”未定义；假设外部返回 int
+  QNode.vcxproj -> C:\Users\44931\source\repos\QNode\Debug\QNode.exe
