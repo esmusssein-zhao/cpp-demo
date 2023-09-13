@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>414</width>
+    <height>422</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget"/>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>414</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>扫雷</string>
+    </property>
+    <addaction name="action8_8"/>
+    <addaction name="separator"/>
+    <addaction name="action10_10"/>
+    <addaction name="separator"/>
+    <addaction name="action16_16"/>
+   </widget>
+   <addaction name="menu"/>
+  </widget>
+  <action name="action8_8">
+   <property name="text">
+    <string>初级</string>
+   </property>
+  </action>
+  <action name="action16_16">
+   <property name="text">
+    <string>高级</string>
+   </property>
+  </action>
+  <action name="action10_10">
+   <property name="text">
+    <string>中级</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
