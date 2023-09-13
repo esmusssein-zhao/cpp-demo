@@ -1,0 +1,5 @@
+﻿  demo.cpp
+C:\Users\44931\source\repos\力扣\力扣\demo.cpp(130,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\44931\source\repos\力扣\力扣\demo.cpp(131,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\44931\source\repos\力扣\力扣\demo.cpp(132,1): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  力扣.vcxproj -> C:\Users\44931\source\repos\力扣\x64\Debug\力扣.exe
